@@ -1,0 +1,9 @@
+mport tkinter as tk
+root = tk.Tk()
+root.title("first GUI code")
+root.geometry("300x100")
+label_name = tk.Label(root, text="name:fang po chun", font=("Arial", 12))
+label_id = tk.Label(root, text="number:U12127101", font=("Arial", 12))
+label_name.pack(pady=5)
+label_id.pack(pady=5)
+root.mainloop()
